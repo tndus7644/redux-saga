@@ -15,7 +15,7 @@ const Photos = () => {
 
     const getPhotos = () => {
         photoActions.getPhotos({
-            per_page:15,
+            per_page:18,
             client_id:UNSPLASH_CLIENT_ID
         })
     }
